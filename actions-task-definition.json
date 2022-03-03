@@ -4,7 +4,6 @@
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
-      "name": "django-actions-ecs",
       "image": "650975886983.dkr.ecr.ap-northeast-2.amazonaws.com/django-ecs:latest",
       "portMappings": [
         {

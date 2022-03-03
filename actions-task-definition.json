@@ -3,7 +3,8 @@
   "executionRoleArn": "arn:aws:iam::650975886983:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
   "containerDefinitions": [
-    {
+    { 
+      "name": "django-ecs",
       "image": "650975886983.dkr.ecr.ap-northeast-2.amazonaws.com/django-ecs:latest",
       "portMappings": [
         {

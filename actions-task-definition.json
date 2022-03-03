@@ -1,0 +1,25 @@
+{
+  "family": "ecs-actions-demo",
+  "executionRoleArn": "arn:aws:iam::650975886983:role/ecsTaskExecutionRole",
+  "networkMode": "awsvpc",
+  "containerDefinitions": [
+    {
+      "name": "django-actions-ecs",
+      "image": "650975886983.dkr.ecr.ap-northeast-2.amazonaws.com/django-ecs:latest",
+      "portMappings": [
+        {
+          "containerPort": 8000,
+          "hostPort": 8000,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true
+    }
+  ],
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "cpu": "512",
+  "memory": "1024"
+}
+

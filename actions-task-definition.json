@@ -1,11 +1,11 @@
 {
   "family": "ecs-actions-demo",
-  "executionRoleArn": "arn:aws:iam::650975886983:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::<Your-AWS-Account>:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
   "containerDefinitions": [
     { 
-      "name": "django-ecs",
-      "image": "650975886983.dkr.ecr.ap-northeast-2.amazonaws.com/django-ecs:latest",
+      "name": "ecs-actions",
+      "image": "<Your-AWS-Account>.dkr.ecr.ap-northeast-2.amazonaws.com/ecs-actions:latest",
       "portMappings": [
         {
           "containerPort": 8000,

@@ -1,6 +1,7 @@
 # ecs-actions-demo
 Github Actions를 활용해서 AWS ECS에 컨테이너 이미지를 지속 통합 & 배포하는 데모 프로젝트
 
+작업 순서
 1. Github Repository 생성
 2. AWS Secret key 주입
 3. 샘플 컨테이너 생성 (본 리포의 Dockerfile 활용)

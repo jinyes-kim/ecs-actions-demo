@@ -13,3 +13,6 @@ Github Actions를 활용해서 AWS ECS에 컨테이너 이미지를 지속 통�
 6. task-definition.json 작성
 7. ECS 서비스 생성
 8. Github Actions - AWS ECS 
+
+---
+9. aws secret manager 응용 추가
